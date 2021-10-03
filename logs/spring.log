@@ -1,0 +1,824 @@
+2021-09-10 07:34:08.426  INFO 6736 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            11.0.12
+	Lavaplayer      1.3.76
+
+2021-09-10 07:34:08.612  INFO 6736 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-H6I17TC with PID 6736 (C:\Users\benng\Desktop\discord.js-v13-test\Lavalink.jar started by benng in C:\Users\benng\Desktop\discord.js-v13-test)
+2021-09-10 07:34:08.614  INFO 6736 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-10 07:34:08.780  WARN 6736 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-10 07:34:10.735  WARN 6736 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-10 07:34:10.765  INFO 6736 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-10 07:34:10.766  INFO 6736 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2067 ms
+2021-09-10 07:34:11.194  WARN 6736 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-10 07:34:11.575  INFO 6736 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-10 07:34:11.830  INFO 6736 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-10 07:34:11.831  WARN 6736 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-10 07:34:12.144  INFO 6736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 07:34:12.592  INFO 6736 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-09-10 07:34:12.608  INFO 6736 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-09-10 07:34:12.677  INFO 6736 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 80 (http) with context path ''
+2021-09-10 07:34:12.683  INFO 6736 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.835 seconds (JVM running for 5.334)
+2021-09-10 07:34:12.686  INFO 6736 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-09-10 07:34:16.636  INFO 6736 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 07:34:16.638  INFO 6736 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 07:34:16.646  INFO 6736 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-09-10 07:34:16.672  INFO 6736 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59297
+2021-09-10 07:34:16.746  INFO 6736 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59297
+2021-09-10 07:34:22.198  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 07:34:22.635  INFO 6736 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=e89-sUH-_Is"
+2021-09-10 07:34:23.679  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nàng Th? - Hoàng D?ng ?Official Lyrics Video?
+2021-09-10 07:34:23.728  INFO 6736 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=SGlBQR-ftVI"
+2021-09-10 07:34:24.168  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Dù Cho Mai V? Sau (Official Music Video) / buitruonglinh
+2021-09-10 07:34:24.176  INFO 6736 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=lCqjaNvyUbQ"
+2021-09-10 07:34:24.593  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track L?I C?M ?N - Tlinh x M? ANH x WOKEUPAT4AM | WECHOICE AWARDS 2020
+2021-09-10 07:34:24.601  INFO 6736 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=OWQMcEa6fr4"
+2021-09-10 07:34:24.981  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track tu?? thi?ch thi?ch tha?nh thu?o?ng thu?o?ng - AMEE & Hoàng D?ng | ‘dreamee’ live acoustic show
+2021-09-10 07:34:24.989  INFO 6736 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=R3vqhJ72lcE"
+2021-09-10 07:34:25.390  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [HiddenGem Mixtape] 5. Hoàn H?o - B Ray
+2021-09-10 07:34:25.396  INFO 6736 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=T4UE6CFEpTU"
+2021-09-10 07:34:25.835  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [Live] Em Còn Nh? Anh Không - Koo ft Hoàng Tôn | USLive | Vigga Official
+2021-09-10 07:34:25.841  INFO 6736 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=7TQqzmow7V8"
+2021-09-10 07:34:26.209  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Khói - anh thèm ???c ng? //Official
+2021-09-10 07:34:26.216  INFO 6736 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=u99AklNGpyc"
+2021-09-10 07:34:26.687  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Powfu - Death Bed (Lyrics) ft. beabadoobee | don't stay awake for too long
+2021-09-10 07:34:26.693  INFO 6736 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=L0NZW6pgSLc"
+2021-09-10 07:34:27.057  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - M??i N?m ft. Ng?c Linh (M/V) (L?n X?n 3)
+2021-09-10 07:34:27.063  INFO 6736 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=9_201Kvm-KU"
+2021-09-10 07:34:27.409  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ngày mai anh hát cho em hôm nay m?t b?n tình ca (live at '? kìa' show) | MCK // nger x hnhngan
+2021-09-10 07:34:27.416  INFO 6736 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=DcUjJyTfFPk"
+2021-09-10 07:34:27.771  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ??I || MCK ft. L?C || OFFICIAL LYRIC VIDEO
+2021-09-10 07:34:27.778  INFO 6736 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=i459z2NAAXc"
+2021-09-10 07:34:28.219  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track (Original) Flaming - Sungha Jung (Baritone Guitar)
+2021-09-10 07:34:28.226  INFO 6736 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HTQC6mPGfgA"
+2021-09-10 07:34:28.625  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track N?ng ?m Xa D?n?Lofi Ver.?- S?n Tùng M-TP | LOFI CHILL
+2021-09-10 07:34:28.632  INFO 6736 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=r92jXyy_h0k"
+2021-09-10 07:34:29.103  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track MCK & tlinh - D? - ( DaniLeigh - Easy ft. Chris Brown ) Remix. Prod by VITALS & Sony tran
+2021-09-10 07:34:29.109  INFO 6736 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HLff868mpmY"
+2021-09-10 07:34:29.484  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Night City ( demo )  - Tobie ft. hnhngan | Lyrics |
+2021-09-10 07:34:29.490  INFO 6736 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=a_Xx8awWiCw"
+2021-09-10 07:34:29.869  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Tháng N?m - Soobin?Lo - Fi Version by 1 9 6 7?/ Audio Lyrics
+2021-09-10 07:34:29.875  INFO 6736 --- [XNIO-1 task-34] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2-zSSzg8i3Y"
+2021-09-10 07:34:30.296  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track PC - 10 Ngàn N?m ( Prod. Duckie ) [Official Audio]
+2021-09-10 07:34:30.302  INFO 6736 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=p40OWOxAeSw"
+2021-09-10 07:34:30.664  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Thích Quá Rùi Nà - tlinh feat. Trung Tr?n (prod. by Pacman) Official Lyrics Video
+2021-09-10 07:34:30.670  INFO 6736 --- [XNIO-1 task-38] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=zEWSSod0zTY"
+2021-09-10 07:34:31.073  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track GHÉ QUA  | OFFICIAL MV | Dick x PC x Tofu
+2021-09-10 07:34:31.080  INFO 6736 --- [XNIO-1 task-40] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=PKYbWjV51IY"
+2021-09-10 07:34:31.434  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nh?ng Ô C?a Màu - ToFu ft. VoVanDuc | tas release
+2021-09-10 07:34:31.441  INFO 6736 --- [XNIO-1 task-42] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=oigiXW6XyCQ"
+2021-09-10 07:34:31.836  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - m?t tri?u like ft. Thành ??ng (M/V)
+2021-09-10 07:34:31.843  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIANU7DoG5nIFRoxqEgLSBIb8OgbmcgRMWpbmcg44CMT2ZmaWNpYWwgTHlyaWNzIFZpZGVv44CNAAVDaGFuZwAAAAAAA+QYAAtlODktc1VILV9JcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWU4OS1zVUgtX0lzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 07:34:32.362  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"f5370360dd3058eeba05dd376d56d9e2","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"2ee5a6714b99ec6c","guild_id":"773477649174626344","endpoint":"singapore230.discord.media:443"}}
+2021-09-10 07:37:00.716  INFO 6736 --- [XNIO-1 task-44] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ngày mai anh hát cho em hôm nay m?t b?n tình ca"
+2021-09-10 07:37:01.629  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ngày mai anh hát cho em hôm nay m?t b?n tình ca
+2021-09-10 07:38:48.303  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAogIAO0TDuSBDaG8gTWFpIFbhu4EgU2F1IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgLyBidWl0cnVvbmdsaW5oAA1idWl0cnVvbmdsaW5oAAAAAAADobAAC1NHbEJRUi1mdFZJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U0dsQlFSLWZ0VkkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 07:39:35.452  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 07:39:35.454  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 07:39:35.455  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAsAIAR0zhu5xJIEPhuqJNIMagTiAtIFRsaW5oIHggTeG7uCBBTkggeCBXT0tFVVBBVDRBTSB8IFdFQ0hPSUNFIEFXQVJEUyAyMDIwAA9XZUNob2ljZSBBd2FyZHMAAAAAAAOdyAALbENxamFOdnlVYlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1sQ3FqYU52eVViUQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 07:39:47.961  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 07:39:47.963  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAuwIAU05nxqEgfCBNQ0sgfCBOZ8OgeSBtYWkgYW5oIHZp4bq/dCBjaG8gZW0gaMO0bSBuYXkgbeG7mXQgYuG6o24gdMOsbmggY2EgIC0gTUNLIGluZGllAA5Pa2UgTMOibiBtdXNpYwAAAAAAAohwAAtoNnZ1R2xlbDJ2awABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWg2dnVHbGVsMnZrAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 07:42:34.453  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 07:52:41.110  INFO 6736 --- [XNIO-1 task-46] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:xtc"
+2021-09-10 07:52:41.922  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: xtc
+2021-09-10 07:52:41.930  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 07:52:41.931  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAA0QIAZ1jDrWNoIFRow6ptIENow7p0IC0gWFRDIFJlbWl4IHwgUlBUIEdyb292aWUgZnQgVExpbmggeCBSUFQgTUNLIChQcm9kLiBieSBmYXRfYmVubiAmIFJQVCBMVCl8IFJBUElUQUxPVkUAEFJhcGl0YWwgT2ZmaWNpYWwAAAAAAAO9CAALUE5oWXo2Um1JcjQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QTmhZejZSbUlyNAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 07:52:43.137  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"f5370360dd3058eeba05dd376d56d9e2","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"489a3f1a3da1a3df","guild_id":"773477649174626344","endpoint":"singapore230.discord.media:443"}}
+2021-09-10 07:53:22.956  INFO 6736 --- [XNIO-1 task-48] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:tay to"
+2021-09-10 07:53:23.588  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: tay to
+2021-09-10 07:53:42.157  INFO 6736 --- [XNIO-1 task-50] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:?êm trong veo"
+2021-09-10 07:53:42.728  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ?êm trong veo
+2021-09-10 07:56:47.899  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAyQIAX1JhcGl0YWxvdmUgRVB8IFRheSBUbyAtIFJQVCBNQ0sgeCBSUFQgUGhvbmdLaGluIChQcm9kLiBieSBSUFQgUGhvbmdLaGluKSBbT2ZmaWNpYWwgTHlyaWMgVmlkZW9dABBSYXBpdGFsIE9mZmljaWFsAAAAAAACiHAAC2NLQlJIYVBkamJjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Y0tCUkhhUGRqYmMAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 07:59:33.679  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAygIAYFJhcGl0YWxvdmUgRVB8IMSQw4pNIFRST05HIFZFTyAtIFJQVCBHcm9vdmllIHggUlBUIEdPTlpPIChQcm9kLiBGYXRfYmVubikgW09mZmljaWFsIEx5cmljIFZpZGVvXQAQUmFwaXRhbCBPZmZpY2lhbAAAAAAAA19IAAt4aWVoUmJlVWFZcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXhpZWhSYmVVYVlzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 08:01:58.347  INFO 6736 --- [XNIO-1 task-52] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:b?n tin bóng ?á vi?t nam vs australia"
+2021-09-10 08:01:59.145  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: b?n tin bóng ?á vi?t nam vs australia
+2021-09-10 08:02:19.223  INFO 6736 --- [XNIO-1 task-54] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:rapitaleplove xtc xích thêm chút"
+2021-09-10 08:02:19.838  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: rapitaleplove xtc xích thêm chút
+2021-09-10 08:02:35.692  INFO 6736 --- [XNIO-1 task-56] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=fdRuxaPTuXc"
+2021-09-10 08:02:36.146  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Rapitalove EP| XTC (Xích Thêm Chút) - RPT Groovie x RPT Orijinn x RPT JasonDilla (Prod. Derkalavier)
+2021-09-10 08:03:14.758  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAngIAO0LhuqNuIFRpbiBCw7NuZyDEkMOhIDogVmnhu4d0IE5hbSAtIEF1c3RyYWxpYSB8IE5NVCBWbG9nZ2cuAAlOTVQgVmxvZy4AAAAAAARlAAALSjV5bjZZSXI5ZU0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1KNXluNllJcjllTQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:06:28.376  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:07:54.955  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 08:09:30.199  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAA0QIAZ1jDrWNoIFRow6ptIENow7p0IC0gWFRDIFJlbWl4IHwgUlBUIEdyb292aWUgZnQgVExpbmggeCBSUFQgTUNLIChQcm9kLiBieSBmYXRfYmVubiAmIFJQVCBMVCl8IFJBUElUQUxPVkUAEFJhcGl0YWwgT2ZmaWNpYWwAAAAAAAO9CAALUE5oWXo2Um1JcjQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QTmhZejZSbUlyNAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:09:37.441  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:09:37.444  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:09:37.445  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAA0QIAZ1JhcGl0YWxvdmUgRVB8IFhUQyAoWMOtY2ggVGjDqm0gQ2jDunQpIC0gUlBUIEdyb292aWUgeCBSUFQgT3JpamlubiB4IFJQVCBKYXNvbkRpbGxhIChQcm9kLiBEZXJrYWxhdmllcikAEFJhcGl0YWwgT2ZmaWNpYWwAAAAAAAOxUAALZmRSdXhhUFR1WGMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1mZFJ1eGFQVHVYYwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:13:40.316  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 08:14:36.268  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59297 -- CloseStatus[code=1006, reason=]
+2021-09-10 08:14:36.270  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 08:14:48.145  INFO 6736 --- [XNIO-1 task-58] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59232
+2021-09-10 08:14:48.151  INFO 6736 --- [XNIO-1 task-58] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59232
+2021-09-10 08:15:03.496  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59232 -- CloseStatus[code=1006, reason=]
+2021-09-10 08:15:03.497  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 08:16:11.559  INFO 6736 --- [XNIO-1 task-59] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56822
+2021-09-10 08:16:11.564  INFO 6736 --- [XNIO-1 task-59] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:56822
+2021-09-10 08:16:18.310  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56822 -- CloseStatus[code=1006, reason=]
+2021-09-10 08:16:18.311  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 08:16:53.672  INFO 6736 --- [XNIO-1 task-60] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56833
+2021-09-10 08:16:53.676  INFO 6736 --- [XNIO-1 task-60] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:56833
+2021-09-10 08:16:57.795  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56833 -- CloseStatus[code=1006, reason=]
+2021-09-10 08:16:57.796  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 08:17:26.953  INFO 6736 --- [XNIO-1 task-61] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61985
+2021-09-10 08:17:26.957  INFO 6736 --- [XNIO-1 task-61] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:61985
+2021-09-10 08:17:35.825  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61985 -- CloseStatus[code=1006, reason=]
+2021-09-10 08:17:35.826  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 08:17:40.739  INFO 6736 --- [XNIO-1 task-62] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61994
+2021-09-10 08:17:40.745  INFO 6736 --- [XNIO-1 task-62] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:61994
+2021-09-10 08:19:31.420  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 08:19:31.845  INFO 6736 --- [XNIO-1 task-63] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=e89-sUH-_Is"
+2021-09-10 08:19:32.511  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nàng Th? - Hoàng D?ng ?Official Lyrics Video?
+2021-09-10 08:19:32.530  INFO 6736 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=SGlBQR-ftVI"
+2021-09-10 08:19:33.041  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Dù Cho Mai V? Sau (Official Music Video) / buitruonglinh
+2021-09-10 08:19:33.047  INFO 6736 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=lCqjaNvyUbQ"
+2021-09-10 08:19:33.479  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track L?I C?M ?N - Tlinh x M? ANH x WOKEUPAT4AM | WECHOICE AWARDS 2020
+2021-09-10 08:19:33.486  INFO 6736 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=OWQMcEa6fr4"
+2021-09-10 08:19:33.932  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track tu?? thi?ch thi?ch tha?nh thu?o?ng thu?o?ng - AMEE & Hoàng D?ng | ‘dreamee’ live acoustic show
+2021-09-10 08:19:33.939  INFO 6736 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=R3vqhJ72lcE"
+2021-09-10 08:19:34.335  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [HiddenGem Mixtape] 5. Hoàn H?o - B Ray
+2021-09-10 08:19:34.341  INFO 6736 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=T4UE6CFEpTU"
+2021-09-10 08:19:34.775  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [Live] Em Còn Nh? Anh Không - Koo ft Hoàng Tôn | USLive | Vigga Official
+2021-09-10 08:19:34.781  INFO 6736 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=7TQqzmow7V8"
+2021-09-10 08:19:35.168  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Khói - anh thèm ???c ng? //Official
+2021-09-10 08:19:35.175  INFO 6736 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=u99AklNGpyc"
+2021-09-10 08:19:35.667  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Powfu - Death Bed (Lyrics) ft. beabadoobee | don't stay awake for too long
+2021-09-10 08:19:35.675  INFO 6736 --- [XNIO-1 task-15] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=L0NZW6pgSLc"
+2021-09-10 08:19:36.054  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - M??i N?m ft. Ng?c Linh (M/V) (L?n X?n 3)
+2021-09-10 08:19:36.062  INFO 6736 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=9_201Kvm-KU"
+2021-09-10 08:19:36.473  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ngày mai anh hát cho em hôm nay m?t b?n tình ca (live at '? kìa' show) | MCK // nger x hnhngan
+2021-09-10 08:19:36.480  INFO 6736 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=DcUjJyTfFPk"
+2021-09-10 08:19:36.872  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ??I || MCK ft. L?C || OFFICIAL LYRIC VIDEO
+2021-09-10 08:19:36.877  INFO 6736 --- [XNIO-1 task-21] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=i459z2NAAXc"
+2021-09-10 08:19:37.304  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track (Original) Flaming - Sungha Jung (Baritone Guitar)
+2021-09-10 08:19:37.309  INFO 6736 --- [XNIO-1 task-23] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HTQC6mPGfgA"
+2021-09-10 08:19:37.671  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track N?ng ?m Xa D?n?Lofi Ver.?- S?n Tùng M-TP | LOFI CHILL
+2021-09-10 08:19:37.678  INFO 6736 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=r92jXyy_h0k"
+2021-09-10 08:19:38.281  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track MCK & tlinh - D? - ( DaniLeigh - Easy ft. Chris Brown ) Remix. Prod by VITALS & Sony tran
+2021-09-10 08:19:38.287  INFO 6736 --- [XNIO-1 task-27] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HLff868mpmY"
+2021-09-10 08:19:38.665  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Night City ( demo )  - Tobie ft. hnhngan | Lyrics |
+2021-09-10 08:19:38.671  INFO 6736 --- [XNIO-1 task-29] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=a_Xx8awWiCw"
+2021-09-10 08:19:39.040  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Tháng N?m - Soobin?Lo - Fi Version by 1 9 6 7?/ Audio Lyrics
+2021-09-10 08:19:39.141  INFO 6736 --- [XNIO-1 task-31] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2-zSSzg8i3Y"
+2021-09-10 08:19:39.542  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track PC - 10 Ngàn N?m ( Prod. Duckie ) [Official Audio]
+2021-09-10 08:19:39.547  INFO 6736 --- [XNIO-1 task-33] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=p40OWOxAeSw"
+2021-09-10 08:19:39.967  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Thích Quá Rùi Nà - tlinh feat. Trung Tr?n (prod. by Pacman) Official Lyrics Video
+2021-09-10 08:19:39.974  INFO 6736 --- [XNIO-1 task-35] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=zEWSSod0zTY"
+2021-09-10 08:19:40.412  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track GHÉ QUA  | OFFICIAL MV | Dick x PC x Tofu
+2021-09-10 08:19:40.417  INFO 6736 --- [XNIO-1 task-37] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=PKYbWjV51IY"
+2021-09-10 08:19:40.838  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nh?ng Ô C?a Màu - ToFu ft. VoVanDuc | tas release
+2021-09-10 08:19:40.844  INFO 6736 --- [XNIO-1 task-39] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=oigiXW6XyCQ"
+2021-09-10 08:19:41.208  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - m?t tri?u like ft. Thành ??ng (M/V)
+2021-09-10 08:19:41.213  INFO 6736 --- [XNIO-1 task-41] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=PNhYz6RmIr4"
+2021-09-10 08:19:41.629  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Xích Thêm Chút - XTC Remix | RPT Groovie ft TLinh x RPT MCK (Prod. by fat_benn & RPT LT)| RAPITALOVE
+2021-09-10 08:19:41.634  INFO 6736 --- [XNIO-1 task-43] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=cKBRHaPdjbc"
+2021-09-10 08:19:42.050  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Rapitalove EP| Tay To - RPT MCK x RPT PhongKhin (Prod. by RPT PhongKhin) [Official Lyric Video]
+2021-09-10 08:19:42.057  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIANU7DoG5nIFRoxqEgLSBIb8OgbmcgRMWpbmcg44CMT2ZmaWNpYWwgTHlyaWNzIFZpZGVv44CNAAVDaGFuZwAAAAAAA+QYAAtlODktc1VILV9JcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWU4OS1zVUgtX0lzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 08:19:42.568  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"7dbe1a4291871b58","guild_id":"773477649174626344","endpoint":"singapore4719.discord.media:443"}}
+2021-09-10 08:20:35.084  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:20:35.086  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAwAIAW01DSyAmIHRsaW5oIC0gROG7hSAtICggRGFuaUxlaWdoIC0gRWFzeSBmdC4gQ2hyaXMgQnJvd24gKSBSZW1peC4gUHJvZCBieSBWSVRBTFMgJiBTb255IHRyYW4AC01DSyAvLyBOZ2VyAAAAAAACs2gAC3I5MmpYeXlfaDBrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9cjkyalh5eV9oMGsAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 08:23:32.286  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAmAIAM05pZ2h0IENpdHkgKCBkZW1vICkgIC0gVG9iaWUgZnQuIGhuaG5nYW4gfCBMeXJpY3MgfAALQ2hpbGwgTXVzaWMAAAAAAAMY+AALSExmZjg2OG1wbVkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ITGZmODY4bXBtWQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:23:38.134  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:23:38.136  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAowIAQlRow6FuZyBOxINtIC0gU29vYmlu44CMTG8gLSBGaSBWZXJzaW9uIGJ5IDEgOSA2IDfjgI0vIEF1ZGlvIEx5cmljcwAHMSA5IDYgNwAAAAAAA9hgAAthX1h4OGF3V2lDdwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWFfWHg4YXdXaUN3AAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 08:23:45.876  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:23:45.878  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAngIANFBDIC0gMTAgTmfDoG4gTsSDbSAoIFByb2QuIER1Y2tpZSApIFtPZmZpY2lhbCBBdWRpb10AEFBDIEZlZWxpbmdTb3VuZHoAAAAAAAOlmAALMi16U1N6ZzhpM1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0yLXpTU3pnOGkzWQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:23:50.096  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:23:50.098  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAtgIAV1Row61jaCBRdcOhIFLDuWkgTsOgIC0gdGxpbmggZmVhdC4gVHJ1bmcgVHLhuqduIChwcm9kLiBieSBQYWNtYW4pIE9mZmljaWFsIEx5cmljcyBWaWRlbwAFdGxpbmgAAAAAAAKzaAALcDQwT1dPeEFlU3cAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1wNDBPV094QWVTdwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:23:53.094  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:23:53.096  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlgIAKkdIw4kgUVVBICB8IE9GRklDSUFMIE1WIHwgRGljayB4IFBDIHggVG9mdQASQuG6oE4gQ8OTIFTDgEkgTcOAAAAAAAAEFuAAC3pFV1NTb2QwelRZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ekVXU1NvZDB6VFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 08:26:27.514  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:26:34.027  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"7dbe1a4291871b58","guild_id":"773477649174626344","endpoint":"singapore4719.discord.media:443"}}
+2021-09-10 08:26:34.967  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"7dbe1a4291871b58","guild_id":"773477649174626344","endpoint":"singapore1824.discord.media:443"}}
+2021-09-10 08:26:50.166  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"7dbe1a4291871b58","guild_id":"773477649174626344","endpoint":"singapore1824.discord.media:443"}}
+2021-09-10 08:26:57.480  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 08:28:51.549  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIAN05o4buvbmcgw5QgQ+G7rWEgTcOgdSAtIFRvRnUgZnQuIFZvVmFuRHVjIHwgdGFzIHJlbGVhc2UAA3RhcwAAAAAAA8TYAAtQS1liV2pWNTFJWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVBLWWJXalY1MUlZAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 08:32:44.801  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:33:23.397  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 08:33:37.730  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAngIAMsSQZW4gLSBt4buZdCB0cmnhu4d1IGxpa2UgZnQuIFRow6BuaCDEkOG7k25nIChNL1YpABLEkGVuIFbDonUgT2ZmaWNpYWwAAAAAAAP7iAALb2lnaVhXNlh5Q1EAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vaWdpWFc2WHlDUQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:34:32.846  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:35:39.495  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 08:36:36.500  INFO 6736 --- [XNIO-1 task-45] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:angel chancellor"
+2021-09-10 08:36:37.222  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: angel chancellor
+2021-09-10 08:36:54.120  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 08:36:54.122  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAA0QIAZ1jDrWNoIFRow6ptIENow7p0IC0gWFRDIFJlbWl4IHwgUlBUIEdyb292aWUgZnQgVExpbmggeCBSUFQgTUNLIChQcm9kLiBieSBmYXRfYmVubiAmIFJQVCBMVCl8IFJBUElUQUxPVkUAEFJhcGl0YWwgT2ZmaWNpYWwAAAAAAAO5IAALUE5oWXo2Um1JcjQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QTmhZejZSbUlyNAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:40:59.030  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAyQIAX1JhcGl0YWxvdmUgRVB8IFRheSBUbyAtIFJQVCBNQ0sgeCBSUFQgUGhvbmdLaGluIChQcm9kLiBieSBSUFQgUGhvbmdLaGluKSBbT2ZmaWNpYWwgTHlyaWMgVmlkZW9dABBSYXBpdGFsIE9mZmljaWFsAAAAAAAChIgAC2NLQlJIYVBkamJjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Y0tCUkhhUGRqYmMAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 08:41:58.774  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:44:20.830  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 08:45:16.561  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:45:49.278  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 08:46:39.770  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAtAIAOuyxiOyKrOufrCBDaGFuY2VsbG9yIOKAmEFuZ2VsIChGZWF0LiDtg5zsl7AgVEFFWUVPTinigJkgTVYAIE1JTExJT04gTUFSS0VUICjrsIDrpqzslrjrp4jsvJMpAAAAAAAERcAAC19rREx0YTZ3dmNZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9X2tETHRhNnd2Y1kAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 08:51:21.594  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 08:51:59.843  INFO 6736 --- [XNIO-1 task-47] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:m??i n?m"
+2021-09-10 08:52:00.593  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: m??i n?m
+2021-09-10 08:52:00.602  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 08:52:00.604  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAApQIAOcSQZW4gLSBNxrDhu51pIE7Eg20gZnQuIE5n4buNYyBMaW5oIChNL1YpIChM4buZbiBY4buZbiAzKQASxJBlbiBWw6J1IE9mZmljaWFsAAAAAAADxNgAC0wwTlpXNnBnU0xjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TDBOWlc2cGdTTGMAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 08:52:01.128  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"7d134fa5d0b6667e","guild_id":"773477649174626344","endpoint":"singapore1824.discord.media:443"}}
+2021-09-10 08:52:09.768  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"7d134fa5d0b6667e","guild_id":"773477649174626344","endpoint":"singapore1824.discord.media:443"}}
+2021-09-10 08:52:17.222  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:52:21.057  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 08:54:58.770  INFO 6736 --- [XNIO-1 task-49] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:?n ?? v?i ph?n còn l?i c?a th? gi?i"
+2021-09-10 08:54:59.563  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ?n ?? v?i ph?n còn l?i c?a th? gi?i
+2021-09-10 08:54:59.569  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 08:54:59.570  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAApAIANuG6pG4gxJDhu5kgdsOgIHBo4bqnbiBjw7JuIGzhuqFpIGPhu6dhIHRo4bq/IGdp4bubaSAjMQAUVsOsIFTDtGkgVGjDrWNoIFZsb2cAAAAAAANACAALaWhhVWUycmtDdVkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1paGFVZTJya0N1WQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 08:55:00.083  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"a0b333eb1a8d66fd","guild_id":"773477649174626344","endpoint":"singapore1824.discord.media:443"}}
+2021-09-10 08:55:07.095  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"a0b333eb1a8d66fd","guild_id":"773477649174626344","endpoint":"singapore1824.discord.media:443"}}
+2021-09-10 08:55:54.165  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 08:55:54.167  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 08:56:56.152  INFO 6736 --- [XNIO-1 task-51] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:nh? không h?c l?n làm youtuber"
+2021-09-10 08:56:56.866  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: nh? không h?c l?n làm youtuber
+2021-09-10 08:56:56.871  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 08:56:56.872  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAiwIALU5o4buPIGtow7RuZyBo4buNYyBs4bubbiBsw6BtIFlvdXR1YmVyLi4uKFAxKQAEQSBDTgAAAAAACVqIAAtiVUZzekFUYXAtNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWJVRnN6QVRhcC00AAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 08:56:57.391  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"82f1637fbdf85c84","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 09:01:54.756  INFO 6736 --- [XNIO-1 task-53] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:entity 17 play together"
+2021-09-10 09:01:55.498  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: entity 17 play together
+2021-09-10 09:01:57.535  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 09:01:57.537  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIAMVBsYXkgVG9nZXRoZXIgdsOgIG5o4buvbmcgxJFp4buBdSBraMO0bmcgdMaw4bufbmcACUVudGl0eSAxNwAAAAAAAlmQAAt5alp1Z19ZcE5CVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXlqWnVnX1lwTkJVAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 09:02:02.409  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 09:02:06.921  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 09:04:36.598  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 09:05:47.915  INFO 6736 --- [XNIO-1 task-55] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:nàng th? electric guitar"
+2021-09-10 09:05:48.599  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: nàng th? electric guitar
+2021-09-10 09:05:48.605  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 09:05:48.607  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAkQIAMU7DoG5nIFRoxqEgLSBIb8OgbmcgRMWpbmcgKEVsZWN0cmljIGd1aXRhciBjb3ZlcikABlBodWNOZwAAAAAAA9R4AAtDSkEzQU1SSlhyUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUNKQTNBTVJKWHJRAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 09:05:49.839  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"8ecb56cd641e9165","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 09:09:05.920  INFO 6736 --- [XNIO-1 task-57] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:nàng th? live"
+2021-09-10 09:09:06.588  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: nàng th? live
+2021-09-10 09:10:00.774  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAApwIAPEhPw4BORyBExahORyAtIE7DgE5HIFRIxqAgfCBMaXZlIGF0IEjhu5hJIMSQ4buSTkcgSOG7mEkgMjAyMAARQUxMQUNDRVNTIFZJRVROQU0AAAAAAAP/cAALaEk4RTBpb2c5MW8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oSThFMGlvZzkxbwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 09:14:24.012  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 09:14:47.333  INFO 6736 --- [XNIO-1 task-59] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:reply 1988 ost part 4"
+2021-09-10 09:14:48.275  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: reply 1988 ost part 4
+2021-09-10 09:14:48.281  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 09:14:48.282  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAxgIAU1vsnZHri7XtlZjrnbwgMTk4OCBQYXJ0IDRdIOuwleuztOuejCAoUGFyayBCb3JhbSkgLSDtmJztmZTrj5kgKO2YueydgCDsjI3rrLjrj5kpIE1WABlTdG9uZSBNdXNpYyBFbnRlcnRhaW5tZW50AAAAAAAD/3AACzdfbU5FRTNZOTZBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9N19tTkVFM1k5NkEAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 09:14:48.811  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"5b512c24f40f9739","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 09:16:41.755  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 09:17:06.666  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 09:19:23.133  INFO 6736 --- [XNIO-1 task-61] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bông hoa ??p nh?t"
+2021-09-10 09:19:24.022  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bông hoa ??p nh?t
+2021-09-10 09:19:36.087  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAApgIAOlFVw4JOIEEuUCB8IELDlE5HIEhPQSDEkOG6uFAgTkjhuqRUIHwgT0ZGSUNJQUwgTVVTSUMgVklERU8AElF1w6JuIEEuUCBPZmZpY2lhbAAAAAAABXKIAAtmVFhkLURwTjNBSQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWZUWGQtRHBOM0FJAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 09:24:58.056  INFO 6736 --- [XNIO-1 task-63] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:g?p nh?ng không ? l?i"
+2021-09-10 09:24:58.931  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: g?p nh?ng không ? l?i
+2021-09-10 09:25:34.067  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAxQIAV0fhurdwIE5oxrBuZyBLaMO0bmcg4bueIEzhuqFpIC0gSGnhu4FuIEjhu5MgRnQuIFbGsMahbmcgQW5oIFTDuiB8IE9mZmljaWFsIEx5cmljcyBWaWRlbwAUSGnhu4FuIEjhu5MgT2ZmaWNpYWwAAAAAAARNkAALZFowcnlBTGZzM1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kWjByeUFMZnMzWQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 09:30:17.565  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 09:30:54.603  INFO 6736 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:movie"
+2021-09-10 09:30:55.679  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: movie
+2021-09-10 09:30:55.686  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 09:30:55.688  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAiwIAKFRvbSBNaXNjaCAtIE1vdmllIChPZmZpY2lhbCBNdXNpYyBWaWRlbykACVRvbSBNaXNjaAAAAAAABIRAAAtEVXpFWWNSMlZ0TQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PURVekVZY1IyVnRNAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 09:30:56.210  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6c4e4a65df2f55b95297fb868667da8","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"04e3d3a17611548b","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 09:34:28.057  INFO 6736 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:3107"
+2021-09-10 09:34:28.777  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: 3107
+2021-09-10 09:35:14.615  INFO 6736 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:3107 win"
+2021-09-10 09:35:15.256  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: 3107 win
+2021-09-10 09:35:52.394  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlwIAOlcvbiAtIOKAmDMxMDfigJkgZnVsbCBhbGJ1bXwgZnQuICggdGl0aWUsIE7DonUgLETGsMahbmdnICkAA1cvbgAAAAAAC0LQAAtHYXROTDBtbVFHYwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUdhdE5MMG1tUUdjAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 09:36:31.388  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 09:37:10.166  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 09:38:05.085  INFO 6736 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sài gòn ?au lòng quá"
+2021-09-10 09:38:05.848  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sài gòn ?au lòng quá
+2021-09-10 09:39:21.718  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 09:39:21.721  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAA1wIAbCdTw4BJIEfDkk4gxJBBVSBMw5JORyBRVcOBJyB0b8OgbiBr4bu3IG5p4buHbSBjaMO6bmcgdGEuLi4gfCBI4buoQSBLSU0gVFVZ4buATiB4IEhPw4BORyBEVVnDik4gKE9GRklDSUFMIE1WKQARSOG7qWEgS2ltIFR1eeG7gW4AAAAAAATGqAALQmRQazlpcHZjek0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1CZFBrOWlwdmN6TQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 09:43:18.544  INFO 6736 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:khi em l?n"
+2021-09-10 09:43:19.483  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: khi em l?n
+2021-09-10 09:43:45.394  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61994 -- CloseStatus[code=1006, reason=]
+2021-09-10 09:43:45.395  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-09-10 09:44:13.388  INFO 6736 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61240
+2021-09-10 09:44:13.399  INFO 6736 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:61240
+2021-09-10 09:44:31.001  INFO 6736 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:khi em l?n"
+2021-09-10 09:44:31.812  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: khi em l?n
+2021-09-10 09:44:31.824  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 09:44:31.826  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAApgIANk9yYW5nZSB4IEhvw6BuZyBExaluZyAtIOKAmEtoaSBFbSBM4bubbuKAmSBPZmZpY2lhbCBNVgAWT3JhbmdlIFNpbmdlciBPZmZpY2lhbAAAAAAAA5ngAAsxTGgxRTl2b0VzYwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTFMaDFFOXZvRXNjAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 09:44:33.032  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"b8b772cb12c195b02e2ae04e23570e0c","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"04e3d3a17611548b","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 09:46:27.076  INFO 6736 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:comethru"
+2021-09-10 09:46:27.767  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: comethru
+2021-09-10 09:47:20.879  INFO 6736 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ok anh ?úng pay live"
+2021-09-10 09:47:21.668  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ok anh ?úng pay live
+2021-09-10 09:48:27.772  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 09:48:27.774  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAkAIAKUplcmVteSBadWNrZXIgLSBjb21ldGhydSAoT2ZmaWNpYWwgVmlkZW8pAA1KZXJlbXkgWnVja2VyAAAAAAACwwgAC2pPMnZpTEVXLTFBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ak8ydmlMRVctMUEAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 09:49:39.766  INFO 6736 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:all the kids are depressed"
+2021-09-10 09:49:40.488  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: all the kids are depressed
+2021-09-10 09:51:29.803  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAnwIANVBheSBsaXZlICJPayBBbmggxJDDum5nIC0gT3JhbmdlICIgfCBMaXZlIFNlc3Npb24gIzUwABBNLkEuRCBQcm9kdWN0aW9uAAAAAAACgKAACzJCWHVtSlFKZDE0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MkJYdW1KUUpkMTQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 09:54:13.842  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIANEplcmVteSBadWNrZXIgLSBhbGwgdGhlIGtpZHMgYXJlIGRlcHJlc3NlZCAvLyBMeXJpY3MABkNsb3VkeQAAAAAAAp/gAAtkX1NvOGx3VEhBZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWRfU284bHdUSEFnAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 09:54:54.612  INFO 6736 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:reality lost frequencies"
+2021-09-10 09:54:55.572  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: reality lost frequencies
+2021-09-10 09:56:00.812  INFO 6736 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:níu duyên lofi orinn"
+2021-09-10 09:56:01.483  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: níu duyên lofi orinn
+2021-09-10 09:57:05.682  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAqgIARExvc3QgRnJlcXVlbmNpZXMgZmVhdC4gSmFuaWVjayBEZXZ5IC0gUmVhbGl0eSAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pAAxBcm1hZGEgTXVzaWMAAAAAAAKYEAALaWx3LXFtcVo1elkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1pbHctcW1xWjV6WQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 09:59:55.743  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAjwIAI09yaW5uIE9mZmljaWFsIC0gTsOtdSBEdXnDqm4gLSBMb2ZpABJPcmlubiBPZmZpY2lhbCAtKi0AAAAAAAU/wAALLWE3NEhadlh3OXcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0tYTc0SFp2WHc5dwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 09:59:59.506  INFO 6736 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:2pm my house"
+2021-09-10 10:00:00.321  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: 2pm my house
+2021-09-10 10:05:40.403  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAjAIAITJQTSDigJxNeSBIb3VzZSjsmrDrpqzsp5Ep4oCdIE0vVgARSllQIEVudGVydGFpbm1lbnQAAAAAAAMY+AALdTJwRkIxZENTbzQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj11MnBGQjFkQ1NvNAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:09:03.763  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 10:09:10.063  INFO 6736 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bao ti?n m?t m? bình yên"
+2021-09-10 10:09:10.999  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bao ti?n m?t m? bình yên
+2021-09-10 10:09:11.011  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 10:09:11.013  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAowIAQCdiYW8gdGnhu4FuIG3hu5l0IG3hu5sgYsOsbmggecOqbj8nIC0gMTQgQ2FzcGVyICYgQm9uIChPZmZpY2lhbCkACTE0IENhc3BlcgAAAAAABJPgAAt2VmhLQTlBdjZ2QQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXZWaEtBOUF2NnZBAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 10:09:11.519  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"b8b772cb12c195b02e2ae04e23570e0c","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"25231f8f3eea11fa","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 10:11:59.130  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 10:12:59.927  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 10:15:13.168  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 10:15:36.457  INFO 6736 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:stay with me"
+2021-09-10 10:15:37.551  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: stay with me
+2021-09-10 10:15:37.555  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 10:15:37.556  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAvAIASVvrj4TquajruYQgT1NUIFBhcnQgMV0g7LCs7Je0LCDtjoDsuZggKENIQU5ZRU9MLCBQVU5DSCkgLSBTdGF5IFdpdGggTWUgTVYAGVN0b25lIE11c2ljIEVudGVydGFpbm1lbnQAAAAAAALuAAALcGNLUjBMUHdvWXMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1wY0tSMExQd29ZcwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:15:38.055  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"b8b772cb12c195b02e2ae04e23570e0c","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"1bf74e15f82bda80","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 10:18:51.648  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 10:19:26.415  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 10:19:26.856  INFO 6736 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=e89-sUH-_Is"
+2021-09-10 10:19:27.375  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nàng Th? - Hoàng D?ng ?Official Lyrics Video?
+2021-09-10 10:19:27.381  INFO 6736 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=SGlBQR-ftVI"
+2021-09-10 10:19:27.869  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Dù Cho Mai V? Sau (Official Music Video) / buitruonglinh
+2021-09-10 10:19:27.874  INFO 6736 --- [XNIO-1 task-34] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=lCqjaNvyUbQ"
+2021-09-10 10:19:28.327  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track L?I C?M ?N - Tlinh x M? ANH x WOKEUPAT4AM | WECHOICE AWARDS 2020
+2021-09-10 10:19:28.333  INFO 6736 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=OWQMcEa6fr4"
+2021-09-10 10:19:28.945  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track tu?? thi?ch thi?ch tha?nh thu?o?ng thu?o?ng - AMEE & Hoàng D?ng | ‘dreamee’ live acoustic show
+2021-09-10 10:19:28.951  INFO 6736 --- [XNIO-1 task-38] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=R3vqhJ72lcE"
+2021-09-10 10:19:29.658  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [HiddenGem Mixtape] 5. Hoàn H?o - B Ray
+2021-09-10 10:19:29.664  INFO 6736 --- [XNIO-1 task-40] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=T4UE6CFEpTU"
+2021-09-10 10:19:30.091  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [Live] Em Còn Nh? Anh Không - Koo ft Hoàng Tôn | USLive | Vigga Official
+2021-09-10 10:19:30.098  INFO 6736 --- [XNIO-1 task-42] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=7TQqzmow7V8"
+2021-09-10 10:19:30.860  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Khói - anh thèm ???c ng? //Official
+2021-09-10 10:19:30.865  INFO 6736 --- [XNIO-1 task-44] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=u99AklNGpyc"
+2021-09-10 10:19:31.492  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Powfu - Death Bed (Lyrics) ft. beabadoobee | don't stay awake for too long
+2021-09-10 10:19:31.498  INFO 6736 --- [XNIO-1 task-46] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=L0NZW6pgSLc"
+2021-09-10 10:19:32.137  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - M??i N?m ft. Ng?c Linh (M/V) (L?n X?n 3)
+2021-09-10 10:19:32.143  INFO 6736 --- [XNIO-1 task-48] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=9_201Kvm-KU"
+2021-09-10 10:19:32.488  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ngày mai anh hát cho em hôm nay m?t b?n tình ca (live at '? kìa' show) | MCK // nger x hnhngan
+2021-09-10 10:19:32.493  INFO 6736 --- [XNIO-1 task-50] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=DcUjJyTfFPk"
+2021-09-10 10:19:33.106  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ??I || MCK ft. L?C || OFFICIAL LYRIC VIDEO
+2021-09-10 10:19:33.111  INFO 6736 --- [XNIO-1 task-52] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=i459z2NAAXc"
+2021-09-10 10:19:33.695  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track (Original) Flaming - Sungha Jung (Baritone Guitar)
+2021-09-10 10:19:33.700  INFO 6736 --- [XNIO-1 task-54] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HTQC6mPGfgA"
+2021-09-10 10:19:34.161  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track N?ng ?m Xa D?n?Lofi Ver.?- S?n Tùng M-TP | LOFI CHILL
+2021-09-10 10:19:34.167  INFO 6736 --- [XNIO-1 task-56] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=r92jXyy_h0k"
+2021-09-10 10:19:34.673  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track MCK & tlinh - D? - ( DaniLeigh - Easy ft. Chris Brown ) Remix. Prod by VITALS & Sony tran
+2021-09-10 10:19:34.678  INFO 6736 --- [XNIO-1 task-58] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HLff868mpmY"
+2021-09-10 10:19:35.085  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Night City ( demo )  - Tobie ft. hnhngan | Lyrics |
+2021-09-10 10:19:35.091  INFO 6736 --- [XNIO-1 task-60] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=a_Xx8awWiCw"
+2021-09-10 10:19:35.620  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Tháng N?m - Soobin?Lo - Fi Version by 1 9 6 7?/ Audio Lyrics
+2021-09-10 10:19:35.626  INFO 6736 --- [XNIO-1 task-62] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2-zSSzg8i3Y"
+2021-09-10 10:19:36.198  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track PC - 10 Ngàn N?m ( Prod. Duckie ) [Official Audio]
+2021-09-10 10:19:36.202  INFO 6736 --- [XNIO-1 task-64] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=p40OWOxAeSw"
+2021-09-10 10:19:36.773  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Thích Quá Rùi Nà - tlinh feat. Trung Tr?n (prod. by Pacman) Official Lyrics Video
+2021-09-10 10:19:36.782  INFO 6736 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=zEWSSod0zTY"
+2021-09-10 10:19:37.319  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track GHÉ QUA  | OFFICIAL MV | Dick x PC x Tofu
+2021-09-10 10:19:37.326  INFO 6736 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=PKYbWjV51IY"
+2021-09-10 10:19:37.772  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nh?ng Ô C?a Màu - ToFu ft. VoVanDuc | tas release
+2021-09-10 10:19:37.777  INFO 6736 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=oigiXW6XyCQ"
+2021-09-10 10:19:38.217  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - m?t tri?u like ft. Thành ??ng (M/V)
+2021-09-10 10:19:38.221  INFO 6736 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=PNhYz6RmIr4"
+2021-09-10 10:19:38.766  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Xích Thêm Chút - XTC Remix | RPT Groovie ft TLinh x RPT MCK (Prod. by fat_benn & RPT LT)| RAPITALOVE
+2021-09-10 10:19:38.771  INFO 6736 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=cKBRHaPdjbc"
+2021-09-10 10:19:39.310  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Rapitalove EP| Tay To - RPT MCK x RPT PhongKhin (Prod. by RPT PhongKhin) [Official Lyric Video]
+2021-09-10 10:19:39.316  INFO 6736 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=CJA3AMRJXrQ"
+2021-09-10 10:19:39.832  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nàng Th? - Hoàng D?ng (Electric guitar cover)
+2021-09-10 10:19:39.836  INFO 6736 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=DUzEYcR2VtM"
+2021-09-10 10:19:40.295  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Tom Misch - Movie (Official Music Video)
+2021-09-10 10:19:40.299  INFO 6736 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=BdPk9ipvczM"
+2021-09-10 10:19:40.910  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 'SÀI GÒN ?AU LÒNG QUÁ' toàn k? ni?m chúng ta... | H?A KIM TUY?N x HOÀNG DUYÊN (OFFICIAL MV)
+2021-09-10 10:19:40.914  INFO 6736 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=1Lh1E9voEsc"
+2021-09-10 10:19:41.343  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Orange x Hoàng D?ng - ‘Khi Em L?n’ Official MV
+2021-09-10 10:19:41.347  INFO 6736 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=jO2viLEW-1A"
+2021-09-10 10:19:41.921  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Jeremy Zucker - comethru (Official Video)
+2021-09-10 10:19:41.925  INFO 6736 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2BXumJQJd14"
+2021-09-10 10:19:42.420  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Pay live "Ok Anh ?úng - Orange " | Live Session #50
+2021-09-10 10:19:42.424  INFO 6736 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=ilw-qmqZ5zY"
+2021-09-10 10:19:43.009  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Lost Frequencies feat. Janieck Devy - Reality (Official Music Video)
+2021-09-10 10:19:43.014  INFO 6736 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=-a74HZvXw9w"
+2021-09-10 10:19:43.393  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Orinn Official - Níu Duyên - Lofi
+2021-09-10 10:19:43.397  INFO 6736 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=u2pFB1dCSo4"
+2021-09-10 10:19:43.991  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 2PM “My House(???)” M/V
+2021-09-10 10:19:43.995  INFO 6736 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=vVhKA9Av6vA"
+2021-09-10 10:19:44.462  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 'bao ti?n m?t m? bình yên?' - 14 Casper & Bon (Official)
+2021-09-10 10:19:44.466  INFO 6736 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=pcKR0LPwoYs"
+2021-09-10 10:19:45.109  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [??? OST Part 1] ??, ?? (CHANYEOL, PUNCH) - Stay With Me MV
+2021-09-10 10:19:45.114  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIANU7DoG5nIFRoxqEgLSBIb8OgbmcgRMWpbmcg44CMT2ZmaWNpYWwgTHlyaWNzIFZpZGVv44CNAAVDaGFuZwAAAAAAA+QYAAtlODktc1VILV9JcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWU4OS1zVUgtX0lzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 10:19:45.627  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"b8b772cb12c195b02e2ae04e23570e0c","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"492e13d81cac16e2","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 10:24:00.681  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAogIAO0TDuSBDaG8gTWFpIFbhu4EgU2F1IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgLyBidWl0cnVvbmdsaW5oAA1idWl0cnVvbmdsaW5oAAAAAAADobAAC1NHbEJRUi1mdFZJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U0dsQlFSLWZ0VkkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 10:27:59.540  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAsAIAR0zhu5xJIEPhuqJNIMagTiAtIFRsaW5oIHggTeG7uCBBTkggeCBXT0tFVVBBVDRBTSB8IFdFQ0hPSUNFIEFXQVJEUyAyMDIwAA9XZUNob2ljZSBBd2FyZHMAAAAAAAOdyAALbENxamFOdnlVYlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1sQ3FqYU52eVViUQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:28:09.184  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:28:09.187  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAA2wIAbXR1zJvMgCB0aGnMgWNoIHRoacyBY2ggdGhhzIBuaCB0aHXMm2/Mm25nIHRodcybb8ybbmcgLSBBTUVFICYgSG/DoG5nIETFqW5nIHwg4oCYZHJlYW1lZeKAmSBsaXZlIGFjb3VzdGljIHNob3cAFFNULjMxOSBFbnRlcnRhaW5tZW50AAAAAAADODgAC09XUU1jRWE2ZnI0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9T1dRTWNFYTZmcjQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 10:28:12.594  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:28:12.596  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAjwIAKltIaWRkZW5HZW0gTWl4dGFwZV0gNS4gSG/DoG4gSOG6o28gLSBCIFJheQALRXZCIFJlY29yZHMAAAAAAANbYAALUjN2cWhKNzJsY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1SM3ZxaEo3MmxjRQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:30:01.069  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:30:01.071  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAtgIATltMaXZlXSBFbSBDw7JuIE5o4bubIEFuaCBLaMO0bmcgLSBLb28gZnQgSG/DoG5nIFTDtG4gfCBVU0xpdmUgfCBWaWdnYSBPZmZpY2lhbAAOVmlnZ2EgT2ZmaWNpYWwAAAAAAAPzuAALVDRVRTZDRkVwVFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1UNFVFNkNGRXBUVQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:30:05.266  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:30:05.267  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAigIAK0tow7NpIC0gYW5oIHRow6htIMSRxrDhu6NjIG5n4bunIC8vT2ZmaWNpYWwABUtow7NpAAAAAAACbRgACzdUUXF6bW93N1Y4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9N1RRcXptb3c3VjgAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 10:32:44.860  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIAL8SQ4bucSSB8fCBNQ0sgZnQuIEzhu5hDIHx8IE9GRklDSUFMIExZUklDIFZJREVPAAtNQ0sgLy8gTmdlcgAAAAAAA+QYAAtEY1VqSnlUZkZQawABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PURjVWpKeVRmRlBrAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 10:32:52.466  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:32:52.468  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAsAIASlBvd2Z1IC0gRGVhdGggQmVkIChMeXJpY3MpIGZ0LiBiZWFiYWRvb2JlZSB8IGRvbid0IHN0YXkgYXdha2UgZm9yIHRvbyBsb25nAAxVbmlxdWUgVmliZXMAAAAAAAKnsAALdTk5QWtsTkdweWMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj11OTlBa2xOR3B5YwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:35:47.360  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAA0QIAZ1jDrWNoIFRow6ptIENow7p0IC0gWFRDIFJlbWl4IHwgUlBUIEdyb292aWUgZnQgVExpbmggeCBSUFQgTUNLIChQcm9kLiBieSBmYXRfYmVubiAmIFJQVCBMVCl8IFJBUElUQUxPVkUAEFJhcGl0YWwgT2ZmaWNpYWwAAAAAAAO5IAALUE5oWXo2Um1JcjQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QTmhZejZSbUlyNAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:35:58.886  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:35:58.888  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAmAIAM05pZ2h0IENpdHkgKCBkZW1vICkgIC0gVG9iaWUgZnQuIGhuaG5nYW4gfCBMeXJpY3MgfAALQ2hpbGwgTXVzaWMAAAAAAAMY+AALSExmZjg2OG1wbVkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ITGZmODY4bXBtWQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:36:02.640  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:36:02.641  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAwAIAW01DSyAmIHRsaW5oIC0gROG7hSAtICggRGFuaUxlaWdoIC0gRWFzeSBmdC4gQ2hyaXMgQnJvd24gKSBSZW1peC4gUHJvZCBieSBWSVRBTFMgJiBTb255IHRyYW4AC01DSyAvLyBOZ2VyAAAAAAACs2gAC3I5MmpYeXlfaDBrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9cjkyalh5eV9oMGsAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 10:38:59.981  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAvAIASVvrj4TquajruYQgT1NUIFBhcnQgMV0g7LCs7Je0LCDtjoDsuZggKENIQU5ZRU9MLCBQVU5DSCkgLSBTdGF5IFdpdGggTWUgTVYAGVN0b25lIE11c2ljIEVudGVydGFpbm1lbnQAAAAAAALuAAALcGNLUjBMUHdvWXMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1wY0tSMExQd29ZcwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 10:40:52.766  INFO 6736 --- [XNIO-1 task-34] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:heartbreak anniversary"
+2021-09-10 10:40:53.827  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: heartbreak anniversary
+2021-09-10 10:42:13.980  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIAN05o4buvbmcgw5QgQ+G7rWEgTcOgdSAtIFRvRnUgZnQuIFZvVmFuRHVjIHwgdGFzIHJlbGVhc2UAA3RhcwAAAAAAA8TYAAtQS1liV2pWNTFJWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVBLWWJXalY1MUlZAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 10:42:32.176  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 10:42:32.178  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAiAIAJ0dpdmVvbiAtIEhlYXJ0YnJlYWsgQW5uaXZlcnNhcnkgKEF1ZGlvKQAHR2l2xJNvbgAAAAAAAwlYAAtuamFfMEJhUWNOZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW5qYV8wQmFRY05nAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 10:43:44.646  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 10:43:44.647  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 10:50:07.667  INFO 6736 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=r92jXyy_h0k"
+2021-09-10 10:50:08.397  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track MCK & tlinh - D? - ( DaniLeigh - Easy ft. Chris Brown ) Remix. Prod by VITALS & Sony tran
+2021-09-10 10:50:08.405  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 10:50:08.408  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAwAIAW01DSyAmIHRsaW5oIC0gROG7hSAtICggRGFuaUxlaWdoIC0gRWFzeSBmdC4gQ2hyaXMgQnJvd24gKSBSZW1peC4gUHJvZCBieSBWSVRBTFMgJiBTb255IHRyYW4AC01DSyAvLyBOZ2VyAAAAAAACs2gAC3I5MmpYeXlfaDBrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9cjkyalh5eV9oMGsAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 10:50:09.622  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"b8b772cb12c195b02e2ae04e23570e0c","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"79da78d328fdf76f","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 10:53:07.109  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 10:55:24.699  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61240 -- CloseStatus[code=1006, reason=]
+2021-09-10 10:55:24.700  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 10:55:40.119  INFO 6736 --- [XNIO-1 task-38] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56371
+2021-09-10 10:55:40.125  INFO 6736 --- [XNIO-1 task-38] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:56371
+2021-09-10 11:03:02.522  INFO 6736 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56371 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:03:02.523  INFO 6736 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:03:06.153  INFO 6736 --- [XNIO-1 task-39] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:52370
+2021-09-10 11:03:06.169  INFO 6736 --- [XNIO-1 task-39] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:52370
+2021-09-10 11:03:15.413  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 11:03:15.830  INFO 6736 --- [XNIO-1 task-40] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=e89-sUH-_Is"
+2021-09-10 11:03:16.517  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nàng Th? - Hoàng D?ng ?Official Lyrics Video?
+2021-09-10 11:03:16.524  INFO 6736 --- [XNIO-1 task-42] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=SGlBQR-ftVI"
+2021-09-10 11:03:17.095  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Dù Cho Mai V? Sau (Official Music Video) / buitruonglinh
+2021-09-10 11:03:17.101  INFO 6736 --- [XNIO-1 task-44] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=lCqjaNvyUbQ"
+2021-09-10 11:03:17.532  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track L?I C?M ?N - Tlinh x M? ANH x WOKEUPAT4AM | WECHOICE AWARDS 2020
+2021-09-10 11:03:17.567  INFO 6736 --- [XNIO-1 task-46] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=OWQMcEa6fr4"
+2021-09-10 11:03:18.131  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track tu?? thi?ch thi?ch tha?nh thu?o?ng thu?o?ng - AMEE & Hoàng D?ng | ‘dreamee’ live acoustic show
+2021-09-10 11:03:18.136  INFO 6736 --- [XNIO-1 task-48] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=R3vqhJ72lcE"
+2021-09-10 11:03:18.686  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [HiddenGem Mixtape] 5. Hoàn H?o - B Ray
+2021-09-10 11:03:18.693  INFO 6736 --- [XNIO-1 task-50] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=T4UE6CFEpTU"
+2021-09-10 11:03:19.452  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [Live] Em Còn Nh? Anh Không - Koo ft Hoàng Tôn | USLive | Vigga Official
+2021-09-10 11:03:19.457  INFO 6736 --- [XNIO-1 task-52] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=7TQqzmow7V8"
+2021-09-10 11:03:19.879  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Khói - anh thèm ???c ng? //Official
+2021-09-10 11:03:19.895  INFO 6736 --- [XNIO-1 task-54] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=u99AklNGpyc"
+2021-09-10 11:03:20.555  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Powfu - Death Bed (Lyrics) ft. beabadoobee | don't stay awake for too long
+2021-09-10 11:03:20.561  INFO 6736 --- [XNIO-1 task-56] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=L0NZW6pgSLc"
+2021-09-10 11:03:20.981  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - M??i N?m ft. Ng?c Linh (M/V) (L?n X?n 3)
+2021-09-10 11:03:20.991  INFO 6736 --- [XNIO-1 task-58] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=9_201Kvm-KU"
+2021-09-10 11:03:21.416  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ngày mai anh hát cho em hôm nay m?t b?n tình ca (live at '? kìa' show) | MCK // nger x hnhngan
+2021-09-10 11:03:21.426  INFO 6736 --- [XNIO-1 task-60] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/watch?v=DcUjJyTfFPk"
+2021-09-10 11:03:22.031  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ??I || MCK ft. L?C || OFFICIAL LYRIC VIDEO
+2021-09-10 11:03:22.036  INFO 6736 --- [XNIO-1 task-62] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=i459z2NAAXc"
+2021-09-10 11:03:22.601  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track (Original) Flaming - Sungha Jung (Baritone Guitar)
+2021-09-10 11:03:22.606  INFO 6736 --- [XNIO-1 task-64] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HTQC6mPGfgA"
+2021-09-10 11:03:23.017  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track N?ng ?m Xa D?n?Lofi Ver.?- S?n Tùng M-TP | LOFI CHILL
+2021-09-10 11:03:23.026  INFO 6736 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=r92jXyy_h0k"
+2021-09-10 11:03:23.518  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track MCK & tlinh - D? - ( DaniLeigh - Easy ft. Chris Brown ) Remix. Prod by VITALS & Sony tran
+2021-09-10 11:03:23.524  INFO 6736 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=HLff868mpmY"
+2021-09-10 11:03:24.008  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Night City ( demo )  - Tobie ft. hnhngan | Lyrics |
+2021-09-10 11:03:24.018  INFO 6736 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=a_Xx8awWiCw"
+2021-09-10 11:03:24.443  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Tháng N?m - Soobin?Lo - Fi Version by 1 9 6 7?/ Audio Lyrics
+2021-09-10 11:03:24.448  INFO 6736 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2-zSSzg8i3Y"
+2021-09-10 11:03:25.053  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track PC - 10 Ngàn N?m ( Prod. Duckie ) [Official Audio]
+2021-09-10 11:03:25.064  INFO 6736 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=p40OWOxAeSw"
+2021-09-10 11:03:25.504  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Thích Quá Rùi Nà - tlinh feat. Trung Tr?n (prod. by Pacman) Official Lyrics Video
+2021-09-10 11:03:25.517  INFO 6736 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=zEWSSod0zTY"
+2021-09-10 11:03:26.238  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track GHÉ QUA  | OFFICIAL MV | Dick x PC x Tofu
+2021-09-10 11:03:26.251  INFO 6736 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=PKYbWjV51IY"
+2021-09-10 11:03:26.695  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nh?ng Ô C?a Màu - ToFu ft. VoVanDuc | tas release
+2021-09-10 11:03:26.700  INFO 6736 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=oigiXW6XyCQ"
+2021-09-10 11:03:28.945  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track ?en - m?t tri?u like ft. Thành ??ng (M/V)
+2021-09-10 11:03:28.950  INFO 6736 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=PNhYz6RmIr4"
+2021-09-10 11:03:29.422  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Xích Thêm Chút - XTC Remix | RPT Groovie ft TLinh x RPT MCK (Prod. by fat_benn & RPT LT)| RAPITALOVE
+2021-09-10 11:03:29.434  INFO 6736 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=cKBRHaPdjbc"
+2021-09-10 11:03:30.162  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Rapitalove EP| Tay To - RPT MCK x RPT PhongKhin (Prod. by RPT PhongKhin) [Official Lyric Video]
+2021-09-10 11:03:30.173  INFO 6736 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=CJA3AMRJXrQ"
+2021-09-10 11:03:32.397  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Nàng Th? - Hoàng D?ng (Electric guitar cover)
+2021-09-10 11:03:32.402  INFO 6736 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=DUzEYcR2VtM"
+2021-09-10 11:03:32.861  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Tom Misch - Movie (Official Music Video)
+2021-09-10 11:03:32.864  INFO 6736 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=BdPk9ipvczM"
+2021-09-10 11:03:33.560  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 'SÀI GÒN ?AU LÒNG QUÁ' toàn k? ni?m chúng ta... | H?A KIM TUY?N x HOÀNG DUYÊN (OFFICIAL MV)
+2021-09-10 11:03:33.564  INFO 6736 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=1Lh1E9voEsc"
+2021-09-10 11:03:34.304  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Orange x Hoàng D?ng - ‘Khi Em L?n’ Official MV
+2021-09-10 11:03:34.313  INFO 6736 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=jO2viLEW-1A"
+2021-09-10 11:03:34.836  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Jeremy Zucker - comethru (Official Video)
+2021-09-10 11:03:34.848  INFO 6736 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=2BXumJQJd14"
+2021-09-10 11:03:35.294  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Pay live "Ok Anh ?úng - Orange " | Live Session #50
+2021-09-10 11:03:35.300  INFO 6736 --- [XNIO-1 task-34] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=ilw-qmqZ5zY"
+2021-09-10 11:03:35.866  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Lost Frequencies feat. Janieck Devy - Reality (Official Music Video)
+2021-09-10 11:03:35.870  INFO 6736 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=-a74HZvXw9w"
+2021-09-10 11:03:36.279  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Orinn Official - Níu Duyên - Lofi
+2021-09-10 11:03:36.284  INFO 6736 --- [XNIO-1 task-38] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=u2pFB1dCSo4"
+2021-09-10 11:03:36.933  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 2PM “My House(???)” M/V
+2021-09-10 11:03:36.937  INFO 6736 --- [XNIO-1 task-40] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=vVhKA9Av6vA"
+2021-09-10 11:03:39.055  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 'bao ti?n m?t m? bình yên?' - 14 Casper & Bon (Official)
+2021-09-10 11:03:39.066  INFO 6736 --- [XNIO-1 task-42] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=pcKR0LPwoYs"
+2021-09-10 11:03:39.635  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track [??? OST Part 1] ??, ?? (CHANYEOL, PUNCH) - Stay With Me MV
+2021-09-10 11:03:39.645  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAlAIANU7DoG5nIFRoxqEgLSBIb8OgbmcgRMWpbmcg44CMT2ZmaWNpYWwgTHlyaWNzIFZpZGVv44CNAAVDaGFuZwAAAAAAA+QYAAtlODktc1VILV9JcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWU4OS1zVUgtX0lzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 11:03:40.878  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"0b6b52a0485aee0e8d3be976e277f903","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"fcdd8f8d3180c577","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 11:04:05.137  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 11:04:05.138  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 11:04:51.948  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:52370 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:04:51.949  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:04:55.652  INFO 6736 --- [XNIO-1 task-44] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62632
+2021-09-10 11:04:55.659  INFO 6736 --- [XNIO-1 task-44] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:62632
+2021-09-10 11:07:12.941  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62632 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:07:12.942  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:07:16.499  INFO 6736 --- [XNIO-1 task-45] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50236
+2021-09-10 11:07:16.506  INFO 6736 --- [XNIO-1 task-45] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:50236
+2021-09-10 11:07:25.052  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50236 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:07:25.052  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:08:05.042  INFO 6736 --- [XNIO-1 task-46] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54054
+2021-09-10 11:08:05.046  INFO 6736 --- [XNIO-1 task-46] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:54054
+2021-09-10 11:08:48.884  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54054 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:08:48.885  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:08:52.357  INFO 6736 --- [XNIO-1 task-47] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56441
+2021-09-10 11:08:52.360  INFO 6736 --- [XNIO-1 task-47] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:56441
+2021-09-10 11:10:23.879  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56441 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:10:23.879  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:10:27.438  INFO 6736 --- [XNIO-1 task-48] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63843
+2021-09-10 11:10:27.443  INFO 6736 --- [XNIO-1 task-48] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:63843
+2021-09-10 11:12:21.986  INFO 6736 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63843 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:12:21.987  INFO 6736 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:12:25.578  INFO 6736 --- [XNIO-1 task-49] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50485
+2021-09-10 11:12:25.582  INFO 6736 --- [XNIO-1 task-49] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:50485
+2021-09-10 11:15:10.180  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50485 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:15:10.181  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:15:13.523  INFO 6736 --- [XNIO-1 task-50] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57857
+2021-09-10 11:15:13.526  INFO 6736 --- [XNIO-1 task-50] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:57857
+2021-09-10 11:15:17.480  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57857 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:15:17.481  INFO 6736 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:15:39.223  INFO 6736 --- [XNIO-1 task-51] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58776
+2021-09-10 11:15:39.226  INFO 6736 --- [XNIO-1 task-51] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:58776
+2021-09-10 11:15:43.053  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58776 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:15:43.054  INFO 6736 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:15:56.690  INFO 6736 --- [XNIO-1 task-52] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61948
+2021-09-10 11:15:56.693  INFO 6736 --- [XNIO-1 task-52] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:61948
+2021-09-10 11:22:17.988  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61948 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:22:17.989  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:22:21.720  INFO 6736 --- [XNIO-1 task-53] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57083
+2021-09-10 11:22:21.725  INFO 6736 --- [XNIO-1 task-53] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:57083
+2021-09-10 11:23:49.162  INFO 6736 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57083 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:23:49.163  INFO 6736 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:23:52.528  INFO 6736 --- [XNIO-1 task-54] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60396
+2021-09-10 11:23:52.532  INFO 6736 --- [XNIO-1 task-54] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:60396
+2021-09-10 11:25:31.753  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60396 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:25:31.754  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:25:35.217  INFO 6736 --- [XNIO-1 task-55] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59118
+2021-09-10 11:25:35.224  INFO 6736 --- [XNIO-1 task-55] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59118
+2021-09-10 11:29:05.162  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59118 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:29:05.163  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 11:29:08.727  INFO 6736 --- [XNIO-1 task-56] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50037
+2021-09-10 11:29:08.731  INFO 6736 --- [XNIO-1 task-56] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:50037
+2021-09-10 11:36:51.584  INFO 6736 --- [XNIO-1 task-57] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:andrenaline solar"
+2021-09-10 11:36:52.711  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: andrenaline solar
+2021-09-10 11:36:52.728  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 11:36:52.729  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAsQIAQVNwZWNpYWwgQ2xpcOOFo1NvbGFyLeKAmEFkcmVuYWxpbmXigJkoRW5nbGlzaCB2ZXIuKShWaW5jZW56byBPU1QpABbshpTrnbzsi5zrj4Qgc29sYXJzaWRvAAAAAAADKJgAC01tQjY2T3gwUVFvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TW1CNjZPeDBRUW8AB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 11:36:53.276  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"b74fad4b53ed13372c45c226d8bb4704","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"687021b2eff8b8c6","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 11:39:00.958  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50037 -- CloseStatus[code=1006, reason=]
+2021-09-10 11:39:00.959  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-09-10 11:39:05.209  INFO 6736 --- [XNIO-1 task-59] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63838
+2021-09-10 11:39:05.213  INFO 6736 --- [XNIO-1 task-59] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:63838
+2021-09-10 11:39:14.078  INFO 6736 --- [XNIO-1 task-60] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:andrenaline solar"
+2021-09-10 11:39:14.906  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: andrenaline solar
+2021-09-10 11:39:14.913  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 11:39:14.914  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAsQIAQVNwZWNpYWwgQ2xpcOOFo1NvbGFyLeKAmEFkcmVuYWxpbmXigJkoRW5nbGlzaCB2ZXIuKShWaW5jZW56byBPU1QpABbshpTrnbzsi5zrj4Qgc29sYXJzaWRvAAAAAAADKJgAC01tQjY2T3gwUVFvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TW1CNjZPeDBRUW8AB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 11:39:15.434  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"sessionId":"97523d85f60bdfa45b091fbd8f6d2438","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"d588c800eb2df927","guild_id":"773477649174626344","endpoint":"singapore864.discord.media:443"}}
+2021-09-10 11:39:22.692  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":80}
+2021-09-10 11:39:22.712  INFO 6736 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$551/0x0000000100755040@107f952d
+2021-09-10 11:39:22.734  INFO 6736 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-09-10 11:39:22.735  INFO 6736 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-09-10 11:39:22.767  INFO 6736 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-09-10 11:39:40.714  INFO 6736 --- [XNIO-1 task-62] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Ugqp16kjb98"
+2021-09-10 11:39:41.545  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Eddy Kim - ????? (You Are So Beautiful) [ROM|HAM|ENG Lyrics]
+2021-09-10 11:39:44.965  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 11:39:44.967  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 11:39:44.968  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAqgIARkVkZHkgS2ltIC0g7J207IGY64uk64uI6rmMIChZb3UgQXJlIFNvIEJlYXV0aWZ1bCkgW1JPTXxIQU18RU5HIEx5cmljc10ACkRvcmVtb25TU1QAAAAAAAL9oAALVWdxcDE2a2piOTgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1VZ3FwMTZramI5OAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-10 11:43:02.059  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 13:16:50.750  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63838 -- CloseStatus[code=1006, reason=]
+2021-09-10 13:16:50.766  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 13:18:06.891  INFO 6736 --- [XNIO-1 task-64] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50708
+2021-09-10 13:18:06.896  INFO 6736 --- [XNIO-1 task-64] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:50708
+2021-09-10 13:23:34.682  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50708 -- CloseStatus[code=1006, reason=]
+2021-09-10 13:23:34.686  INFO 6736 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 13:23:38.128  INFO 6736 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:64023
+2021-09-10 13:23:38.134  INFO 6736 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:64023
+2021-09-10 13:23:48.203  INFO 6736 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:best part"
+2021-09-10 13:23:49.769  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: best part
+2021-09-10 13:23:49.779  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 13:23:49.780  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAjgIAKERhbmllbCBDYWVzYXIgLSBCZXN0IFBhcnQgKGZlYXQuIEguRS5SLikADEVzY2FwZVRyYWNrcwAAAAAAAzRQAAtpS2s2XzItQUFHYwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWlLazZfMi1BQUdjAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 13:23:50.305  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"6810b5929781f4ffc3d8ab660f53a85b","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"ca1735c57cce0ea6","guild_id":"773477649174626344","endpoint":"singapore754.discord.media:443"}}
+2021-09-10 13:24:28.129  INFO 6736 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:?? t?c"
+2021-09-10 13:24:28.891  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ?? t?c
+2021-09-10 13:24:33.575  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 13:24:33.577  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAwwIAX8SQ4buYIFThu5hDIDIgfCBGUk9NIE1JWEkgV0lUSCBMT1ZFIC0gTUFTRVcgeCBQSMOaQyBEVSB4IFBIw4FPIHggxJDhu5ggTUlYSSBbT0ZGSUNJQUwgTVYgTFlSSUNdAApNaXhpR2FtaW5nAAAAAAADODgAC0prMzhPcWRBUXhjAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SmszOE9xZEFReGMAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 13:25:07.240  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"seek","guildId":"773477649174626344","position":0}
+2021-09-10 13:28:38.494  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 13:42:48.611  INFO 8264 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            11.0.12
+	Lavaplayer      1.3.76
+
+2021-09-10 13:42:48.712  INFO 8264 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-H6I17TC with PID 8264 (C:\Users\benng\Desktop\discord.js-v13-test\Lavalink.jar started by benng in C:\Users\benng\Desktop\discord.js-v13-test)
+2021-09-10 13:42:48.713  INFO 8264 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-10 13:42:48.822  WARN 8264 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-10 14:32:17.494  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:64023 -- CloseStatus[code=1006, reason=]
+2021-09-10 14:32:17.502  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 14:32:58.270  INFO 6736 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50682
+2021-09-10 14:32:58.295  INFO 6736 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:50682
+2021-09-10 14:53:20.118  INFO 6736 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:nh?ng câu nói c?a bà ph??ng h?ng"
+2021-09-10 14:53:21.499  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: nh?ng câu nói c?a bà ph??ng h?ng
+2021-09-10 14:53:21.510  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 14:53:21.513  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAxwIAX05o4buvbmcgY8OidSBuw7NpIEfDglkgQsODTyBj4bunYSBCw6AgUGjGsMahbmcgSOG6sW5nIGtoaeG6v24gQ+G7mW5nIMSQ4buTbmcgTeG6oW5nIFTDgk0gxJDhuq5DAA5TYWlnb24gU3RvcmllcwAAAAAACaioAAtpSFVwV2tiODE3MAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWlIVXBXa2I4MTcwAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 14:53:22.016  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6350b15d4fde6f663f46878ef52d78f","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"57ac3c72cf6f4a8b","guild_id":"773477649174626344","endpoint":"singapore7967.discord.media:443"}}
+2021-09-10 14:53:22.601  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6350b15d4fde6f663f46878ef52d78f","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"57ac3c72cf6f4a8b","guild_id":"773477649174626344","endpoint":"singapore7967.discord.media:443"}}
+2021-09-10 14:53:31.624  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":80}
+2021-09-10 14:54:11.383  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 14:54:19.017  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"seek","guildId":"773477649174626344","position":0}
+2021-09-10 14:54:23.008  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":false}
+2021-09-10 14:54:43.650  INFO 6736 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:bà ph??ng h?ng remix"
+2021-09-10 14:54:44.436  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: bà ph??ng h?ng remix
+2021-09-10 14:54:57.243  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"773477649174626344"}
+2021-09-10 14:54:57.245  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAuwIAT05o4buvbmcgY8OidSBuw7NpIGLhuqV0IGjhu6cgY+G7p2EgUGjGsMahbmcgSOG6sW5nIC4gcmVtaXggfCBNaW5oIFRyw60gT0ZGSUNJQUwAEk1pbmggdHLDrSBPZmZpY2lhbAAAAAAAA3a4AAtWeFN0TkF5OUV3OAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVZ4U3ROQXk5RXc4AAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-10 14:55:06.334  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":80}
+2021-09-10 14:55:11.906  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":60}
+2021-09-10 14:56:07.317  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"773477649174626344","pause":true}
+2021-09-10 14:56:07.318  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 14:56:18.506  INFO 6736 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:không yêu tr? dép b? v?"
+2021-09-10 14:56:19.467  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: không yêu tr? dép b? v?
+2021-09-10 14:56:19.472  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 14:56:19.472  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAnAIALU5NQzogS2jDtG5nIHnDqnUgdHLhuqMgZMOpcCBi4buRIHbhu4EgKHJlbWl4KQAVTmd1eeG7hW4gQsOhIEPGsOG7nW5nAAAAAAACHvgACzlnUDZwRE1NS1FZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OWdQNnBETU1LUVkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 14:56:19.984  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"f6350b15d4fde6f663f46878ef52d78f","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"f2fed5385239c8a7","guild_id":"773477649174626344","endpoint":"singapore7967.discord.media:443"}}
+2021-09-10 14:56:20.268  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50682 -- CloseStatus[code=1006, reason=]
+2021-09-10 14:56:20.269  INFO 6736 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-09-10 14:56:34.021  INFO 6736 --- [XNIO-1 task-13] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63045
+2021-09-10 14:56:34.027  INFO 6736 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:63045
+2021-09-10 14:56:37.488  INFO 6736 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:không yêu tr? dép b? v?"
+2021-09-10 14:56:38.131  INFO 6736 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: không yêu tr? dép b? v?
+2021-09-10 14:56:38.139  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":100}
+2021-09-10 14:56:38.140  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","guildId":"773477649174626344","track":"QAAAnAIALU5NQzogS2jDtG5nIHnDqnUgdHLhuqMgZMOpcCBi4buRIHbhu4EgKHJlbWl4KQAVTmd1eeG7hW4gQsOhIEPGsOG7nW5nAAAAAAACHvgACzlnUDZwRE1NS1FZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OWdQNnBETU1LUVkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-10 14:56:38.708  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"71cd041c02da422c3138df86d9cd922c","op":"voiceUpdate","guildId":"773477649174626344","event":{"token":"f2fed5385239c8a7","guild_id":"773477649174626344","endpoint":"singapore7967.discord.media:443"}}
+2021-09-10 14:56:42.561  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"773477649174626344","volume":60}
+2021-09-10 14:58:57.483  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"773477649174626344"}
+2021-09-10 15:04:29.186  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63045 -- CloseStatus[code=1006, reason=]
+2021-09-10 15:04:29.187  INFO 6736 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 15:15:29.092  INFO 6736 --- [XNIO-1 task-16] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57695
+2021-09-10 15:15:29.105  INFO 6736 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:57695
+2021-09-10 15:16:10.663  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57695 -- CloseStatus[code=1006, reason=]
+2021-09-10 15:16:10.663  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 15:16:13.932  INFO 6736 --- [XNIO-1 task-17] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53446
+2021-09-10 15:16:13.937  INFO 6736 --- [XNIO-1 task-17] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:53446
+2021-09-10 15:16:58.369  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53446 -- CloseStatus[code=1006, reason=]
+2021-09-10 15:16:58.371  INFO 6736 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 15:17:01.836  INFO 6736 --- [XNIO-1 task-18] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51391
+2021-09-10 15:17:01.845  INFO 6736 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:51391
+2021-09-10 15:19:31.876  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:51391 -- CloseStatus[code=1006, reason=]
+2021-09-10 15:19:31.877  INFO 6736 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 15:19:35.962  INFO 6736 --- [XNIO-1 task-19] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56974
+2021-09-10 15:19:35.968  INFO 6736 --- [XNIO-1 task-19] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:56974
+2021-09-10 15:24:10.738  INFO 6736 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-10 15:24:10.743  INFO 6736 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2021-09-10 15:24:10.758  INFO 6736 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-10 15:24:10.782 ERROR 6736 --- [XNIO-1 I/O-7] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:978) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) ~[xnio-nio-3.3.8.Final.jar!/:3.3.8.Final]
+
+2021-09-10 16:38:46.954  INFO 15976 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            11.0.12
+	Lavaplayer      1.3.76
+
+2021-09-10 16:38:47.060  INFO 15976 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-H6I17TC with PID 15976 (C:\Users\benng\Desktop\discord.js-v13-test\bot\Lavalink.jar started by benng in C:\Users\benng\Desktop\discord.js-v13-test\bot)
+2021-09-10 16:38:47.061  INFO 15976 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-10 16:38:47.171  WARN 15976 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-10 16:38:48.629  WARN 15976 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-10 16:38:48.657  INFO 15976 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-10 16:38:48.658  INFO 15976 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1540 ms
+2021-09-10 16:38:49.077  WARN 15976 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-10 16:38:49.459  INFO 15976 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-10 16:38:49.656  INFO 15976 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-10 16:38:49.657  WARN 15976 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-10 16:38:49.926  INFO 15976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 16:38:50.208  INFO 15976 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-09-10 16:38:50.255  INFO 15976 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-09-10 16:38:50.321  INFO 15976 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 80 (http) with context path ''
+2021-09-10 16:38:50.330  INFO 15976 --- [main] lavalink.server.Launcher                 : Started Launcher in 3.851 seconds (JVM running for 4.368)
+2021-09-10 16:38:50.334  INFO 15976 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-09-10 16:38:57.230  INFO 15976 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 16:38:57.231  INFO 15976 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 16:38:57.239  INFO 15976 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-09-10 16:38:57.259  INFO 15976 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51347
+2021-09-10 16:38:57.319  INFO 15976 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:51347
+2021-09-10 16:40:05.587  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:51347 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:40:05.589  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:40:17.213  INFO 15976 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58752
+2021-09-10 16:40:17.219  INFO 15976 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:58752
+2021-09-10 16:40:21.428  INFO 15976 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58752 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:40:21.430  INFO 15976 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:45:37.986  INFO 15976 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62859
+2021-09-10 16:45:37.993  INFO 15976 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:62859
+2021-09-10 16:45:41.092  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62859 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:45:41.093  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:46:52.203  INFO 15976 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49949
+2021-09-10 16:46:52.208  INFO 15976 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:49949
+2021-09-10 16:46:55.340  INFO 15976 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49949 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:46:55.341  INFO 15976 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:47:23.593  INFO 15976 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56562
+2021-09-10 16:47:23.599  INFO 15976 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:56562
+2021-09-10 16:47:26.694  INFO 15976 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56562 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:47:26.695  INFO 15976 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:50:38.825  INFO 15976 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61364
+2021-09-10 16:50:38.831  INFO 15976 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:61364
+2021-09-10 16:50:41.936  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61364 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:50:41.937  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:54:53.241  INFO 15976 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58292
+2021-09-10 16:54:53.246  INFO 15976 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:58292
+2021-09-10 16:54:56.323  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58292 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:54:56.324  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:55:50.520  INFO 15976 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53439
+2021-09-10 16:55:50.528  INFO 15976 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:53439
+2021-09-10 16:55:50.966  INFO 15976 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53439 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:55:50.967  INFO 15976 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:56:53.747  INFO 15976 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49316
+2021-09-10 16:56:53.752  INFO 15976 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:49316
+2021-09-10 16:56:54.242  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49316 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:56:54.243  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:57:22.336  INFO 15976 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49327
+2021-09-10 16:57:22.341  INFO 15976 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:49327
+2021-09-10 16:57:23.030  INFO 15976 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49327 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:57:23.031  INFO 15976 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:58:27.110  INFO 15976 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57089
+2021-09-10 16:58:27.119  INFO 15976 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:57089
+2021-09-10 16:58:27.387  INFO 15976 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57089 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:58:27.388  INFO 15976 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:59:24.224  INFO 15976 --- [XNIO-1 task-12] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62211
+2021-09-10 16:59:24.230  INFO 15976 --- [XNIO-1 task-12] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:62211
+2021-09-10 16:59:24.562  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62211 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:59:24.562  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 16:59:34.275  INFO 15976 --- [XNIO-1 task-13] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:55441
+2021-09-10 16:59:34.280  INFO 15976 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:55441
+2021-09-10 16:59:34.976  INFO 15976 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:55441 -- CloseStatus[code=1006, reason=]
+2021-09-10 16:59:34.977  INFO 15976 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 17:00:06.813  INFO 15976 --- [XNIO-1 task-14] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53759
+2021-09-10 17:00:06.818  INFO 15976 --- [XNIO-1 task-14] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:53759
+2021-09-10 17:00:07.156  INFO 15976 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53759 -- CloseStatus[code=1006, reason=]
+2021-09-10 17:00:07.157  INFO 15976 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 17:00:19.170  INFO 15976 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53771
+2021-09-10 17:00:19.176  INFO 15976 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:53771
+2021-09-10 17:00:20.137  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53771 -- CloseStatus[code=1006, reason=]
+2021-09-10 17:00:20.139  INFO 15976 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 17:01:26.702  INFO 15976 --- [XNIO-1 task-16] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58944
+2021-09-10 17:01:26.708  INFO 15976 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:58944
+2021-09-10 17:01:27.439  INFO 15976 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58944 -- CloseStatus[code=1006, reason=]
+2021-09-10 17:01:27.440  INFO 15976 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 17:01:42.019  INFO 15976 --- [XNIO-1 task-17] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58820
+2021-09-10 17:01:42.023  INFO 15976 --- [XNIO-1 task-17] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:58820
+2021-09-10 17:01:42.665  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58820 -- CloseStatus[code=1006, reason=]
+2021-09-10 17:01:42.666  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 17:02:19.496  INFO 15976 --- [XNIO-1 task-18] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:55109
+2021-09-10 17:02:19.501  INFO 15976 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:55109
+2021-09-10 17:02:25.782  INFO 15976 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:55109 -- CloseStatus[code=1006, reason=]
+2021-09-10 17:02:25.783  INFO 15976 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-10 17:02:29.154  INFO 15976 --- [XNIO-1 task-19] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:55124
+2021-09-10 17:02:29.158  INFO 15976 --- [XNIO-1 task-19] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:55124
+2021-09-10 19:43:50.480  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:55124 -- CloseStatus[code=1006, reason=]
+2021-09-10 19:43:50.496  INFO 15976 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
